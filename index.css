@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.bg-container {
+  background-color: #0f172a;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 200px;
+}
+.main_heading {
+  color: #f8fafc;
+  font-family: "Roboto";
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 576px) {
+  .main_heading {
+    font-size: 24px;
+  }
+  .images {
+    display: flex;
+  }
+  .logo {
+    width: 100px;
+  }
+}
